@@ -1,7 +1,6 @@
 <?php
-namespace Utils;
 
-include('./sub_class/Mobil.php');
+namespace Utils;
 
 use SubClassAbstract\Mobil;
 

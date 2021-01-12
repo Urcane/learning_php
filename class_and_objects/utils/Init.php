@@ -1,6 +1,6 @@
 <?php
+
 namespace Utils;
-include('./components/Mobil.php');
 
 use Components\Mobil;
 

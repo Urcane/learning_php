@@ -1,4 +1,6 @@
-<?php namespace SubClassInterface;
+<?php 
+
+namespace SubClassInterface;
 
 use InterfacesFile\Kendaraan;
 

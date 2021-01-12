@@ -1,7 +1,6 @@
 <?php
-namespace Utils;
 
-include('./subclass/Mobil.php');
+namespace Utils;
 
 use ParentClass\Kendaraan;
 use SubClass\Mobil;

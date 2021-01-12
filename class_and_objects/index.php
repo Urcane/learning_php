@@ -1,2 +1,3 @@
 <?php
-include('utils/init.php');
+require_once('./components/Mobil.php');
+require_once('utils/init.php');

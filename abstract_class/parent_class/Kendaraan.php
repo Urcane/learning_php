@@ -1,4 +1,5 @@
 <?php
+
 namespace ParentClassAbstract;
 
 abstract class Kendaraan

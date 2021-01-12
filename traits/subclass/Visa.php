@@ -1,4 +1,6 @@
-<?php namespace SubclassTraits;
+<?php 
+
+namespace SubclassTraits;
 
 use TraitsInterface\Payment;
 use TraitsClass\PaymentMethod;

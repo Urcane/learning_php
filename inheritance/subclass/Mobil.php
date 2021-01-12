@@ -1,6 +1,6 @@
 <?php
+
 namespace SubClass;
-include('./parent_class/Kendaraan.php');
 
 use ParentClass\Kendaraan;
 

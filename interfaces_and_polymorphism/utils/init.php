@@ -1,6 +1,6 @@
-<?php namespace UtilsInterface;
+<?php 
 
-require_once('./interfaces/Kendaraan.php');
+namespace UtilsInterface;
 
 use InterfacesFile\Kendaraan;
 

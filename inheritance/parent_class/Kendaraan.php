@@ -1,4 +1,5 @@
 <?php
+
 namespace ParentClass;
 
 class Kendaraan

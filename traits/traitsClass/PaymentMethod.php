@@ -1,4 +1,6 @@
-<?php namespace TraitsClass;
+<?php 
+
+namespace TraitsClass;
 
 /**
  * Method For VISA Payment
