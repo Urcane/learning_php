@@ -8,7 +8,7 @@ class Transportation
 {
     public static function init(Kendaraan $vehicle)
     {
-        if ($vehicle->statusMesin) {
+        if ($vehicle->getStatusMesin()) {
             echo $vehicle->menyalakanMesin();
             echo '<br>';
         }

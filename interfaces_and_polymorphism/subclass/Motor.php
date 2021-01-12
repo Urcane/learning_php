@@ -6,7 +6,12 @@ use InterfacesFile\Kendaraan;
 
 class Motor implements Kendaraan
 {   
-    public $statusMesin = \true;
+    protected $statusMesin = \true;
+
+    public function getStatusMesin()
+    {
+        return $this->statusMesin;
+    }
 
     public function meningkatkanKecepatan(): string
     {

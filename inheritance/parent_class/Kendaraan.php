@@ -4,12 +4,12 @@ namespace ParentClass;
 
 class Kendaraan
 {
-    protected $nama,
-              $jumlahRoda,
-              $kecepatanMaximal,
-              $mesinMenyala;
+    protected $nama;
+    protected $jumlahRoda;
+    protected $kecepatanMaximal;
+    protected $mesinMenyala;
     
-    function __construct(string $nama, int $jumlahRoda, int $kecepatanMaximal, bool $mesinMenyala)
+    public function __construct(string $nama, int $jumlahRoda, int $kecepatanMaximal, bool $mesinMenyala)
     {
         $this->nama = $nama;
         $this->jumlahRoda = $jumlahRoda;

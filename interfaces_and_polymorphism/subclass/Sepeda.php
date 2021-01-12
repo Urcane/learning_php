@@ -6,7 +6,12 @@ use InterfacesFile\Kendaraan;
 
 class Sepeda implements Kendaraan
 {   
-    public $statusMesin = \false;
+    protected $statusMesin = \false;
+
+    public function getStatusMesin()
+    {
+        return $this->statusMesin;
+    }
 
     public function meningkatkanKecepatan(): string
     {
@@ -16,9 +21,5 @@ class Sepeda implements Kendaraan
     public function menurunkanKecepatan(): string
     {
         return 'Kecepatan Menurun';
-    }
-
-    public function menyalakanMesin(): string{
-        return 'Mesin Telah Di nyalakan!!';
     }
 }

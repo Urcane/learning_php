@@ -4,10 +4,10 @@ namespace Components;
 
 class Mobil
 {
-    public $kondisiMenyala;
-    public $kecepatan;
+    protected $kondisiMenyala;
+    protected $kecepatan;
 
-    function __construct(bool $kondisiMenyala, int $kecepatan)
+    public function __construct(bool $kondisiMenyala, int $kecepatan)
     {
         $this->kondisiMenyala = $kondisiMenyala;
         $this->kecepatan = $kecepatan;

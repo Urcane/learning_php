@@ -4,22 +4,21 @@ namespace ParentClassAbstract;
 
 abstract class Kendaraan
 {
-    protected $nama,
-              $kecepatanMaximal,
-              $mesinMenyala,
-              $jumlahRoda,
-              $defaultKecepatanMesin,
-              $defaulRemMesin;
+    protected $nama;
+    protected $kecepatanMaximal;
+    protected $mesinMenyala;
+    protected $jumlahRoda;
+    protected $defaultKecepatanMesin;
+    protected $defaulRemMesin;
 
-    function __construct(
+    public function __construct(
         string $nama, 
         int $kecepatanMaximal, 
         bool $mesinMenyala, 
         int $jumlahRoda, 
         int $defaultKecepatanMesin, 
         int $defaultRemMesin
-    )
-    {
+    ) {
         $this->nama = $nama;
         $this->kecepatanMaximal = $kecepatanMaximal;
         $this->mesinMenyala = $mesinMenyala;
